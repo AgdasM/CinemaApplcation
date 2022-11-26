@@ -1,0 +1,46 @@
+﻿
+@model List<FilmListeleme3ViewModel>
+@{
+    
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Salon Listele</title>
+</head>
+<body>
+
+    <table class="table table-bordered table-hover table-striped">
+        <tr>
+         
+            <th>
+                Salon Adı
+            </th>
+           
+            <th>
+                Gösterdiği Filmler
+            </th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+ 
+                <td>
+                    @item.SalonAd
+                </td>
+
+                <td>
+                    @Html.ActionLink("Listele","FilmListeleme33", "Admin", new { salonıd=item.SalonId }, new { @class = "btn btn-warning placeholder-xs" })
+                </td>
+            </tr>
+        }
+    </table>
+
+</body>
+</html>
+
+

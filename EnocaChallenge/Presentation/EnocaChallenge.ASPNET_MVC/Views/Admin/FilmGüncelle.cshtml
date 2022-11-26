@@ -1,0 +1,55 @@
+﻿
+@model List<GüncelleViewModel>
+@{
+    ViewData["Title"] = "FilmGüncelle";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Film Güncelle</title>
+</head>
+<body>
+
+    <table class="table table-bordered table-hover table-striped">
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Film Adı
+            </th>
+            <th>
+                Film Yapım Yılı
+            </th>
+            <th>
+                Güncelle
+            </th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.FilmID
+                </td>
+ 
+                <td>
+                    @item.FilmAd
+                </td>
+
+                <td>
+                    @item.FilmYapımyıl
+                </td>
+                <td>
+                    @Html.ActionLink("Güncelle","FilmGüncelle2", "Admin", new { FilmID=item.FilmID,FilmAd=item.FilmAd, FilmYapımyıl=item.FilmYapımyıl }, new { @class = "btn btn-warning placeholder-xs" })
+                </td>
+            </tr>
+        }
+    </table>
+
+</body>
+</html>
+
+

@@ -1,0 +1,57 @@
+﻿@model GüncelleViewModel
+@{
+   
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Film Güncelle</title>
+    <link href="~/css/styles.css" rel="stylesheet" />
+  
+</head>
+<body >
+ 
+            
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5">
+                            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                <div class="card-header"><h3 class="text-center font-weight-light my-4">Film Güncelle</h3></div>
+                                <div class="card-body">
+
+                                    @using (Html.BeginForm("FilmGüncelle3","Admin",FormMethod.Post))
+                                    {
+                                        <div class="form-floating mb-3">
+                                            <input name="FilmId" class="form-control" id="inputfilmıd" type="hidden" value="@Model.FilmID" />
+                                            <label for="inputfilm">@Model.FilmID</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input name="FilmAd" class="form-control" id="inputfilm" type="text" value="@Model.FilmAd" />
+                                            <label for="inputfilm">@Model.FilmAd</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input name="FilmYapımyıl" class="form-control" id="inputFilmYapımyıl" type="text" value="@Model.FilmYapımyıl" />
+                                           <label for="inputfilm">@Model.FilmYapımyıl</label>
+                                        </div>
+                                          <div class="form-group mb-3">
+                                            @ViewBag.ErrorMessage
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
+
+                                            <input type="submit" class="btn btn-primary" value="Güncelle" />
+                                        </div>
+                                    }
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+    
+
+</body>
+</html>

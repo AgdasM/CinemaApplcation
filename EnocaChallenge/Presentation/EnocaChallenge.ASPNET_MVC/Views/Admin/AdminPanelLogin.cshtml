@@ -1,0 +1,54 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Login - SB Admin</title>
+    <link href="~/css/styles.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-primary">
+ 
+            
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5">
+                            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                <div class="card-header"><h3 class="text-center font-weight-light my-4">Login</h3></div>
+                                <div class="card-body">
+
+                                    @using (Html.BeginForm("AdminPanelLogin",   "Admin",   FormMethod.Post))
+                                    {
+
+                                        <div class="form-floating mb-3">
+                                            <input name="AdminName" class="form-control" id="inputAdminName" type="text" placeholder="Admin Name" value=""/>
+                                            <label for="inputAdminName">Admin Name</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input name="Password" class="form-control" id="inputPassword" type="password" placeholder="Password" value=""/>
+                                            <label for="inputPassword">Password</label>
+                                        </div>
+                                          <div class="form-group mb-3">
+                                            @ViewBag.ErrorMessage
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
+
+                                            <input type="submit" class="btn btn-primary" value="Login" />
+                                        </div>
+                                    }
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+    
+
+</body>
+</html>

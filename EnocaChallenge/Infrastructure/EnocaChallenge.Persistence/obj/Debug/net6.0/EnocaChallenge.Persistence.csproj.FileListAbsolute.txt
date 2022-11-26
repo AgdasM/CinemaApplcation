@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\EnocaChallenge\Infrastructure\EnocaChallenge.Persistence\bin\Debug\net6.0\EnocaChallenge.Persistence.deps.json
+C:\Users\User\Desktop\EnocaChallenge\Infrastructure\EnocaChallenge.Persistence\bin\Debug\net6.0\EnocaChallenge.Persistence.dll
+C:\Users\User\Desktop\EnocaChallenge\Infrastructure\EnocaChallenge.Persistence\bin\Debug\net6.0\EnocaChallenge.Persistence.pdb
+C:\Users\User\Desktop\EnocaChallenge\Infrastructure\EnocaChallenge.Persistence\bin\Debug\net6.0\EnocaChallenge.Application.dll
+C:\Users\User\Desktop\EnocaChallenge\Infrastructure\EnocaChallenge.Persistence\bin\Debug\net6.0\EnocaChallenge.Domain.dll
+C:\Users\User\Desktop\EnocaChallenge\Infrastructure\EnocaChallenge.Persistence\bin\Debug\net6.0\EnocaChallenge.Application.pdb
+C:\Users\User\Desktop\EnocaChallenge\Infrastructure\EnocaChallenge.Persistence\bin\Debug\net6.0\EnocaChallenge.Domain.pdb
+C:\Users\User\Desktop\EnocaChallenge\Infrastructure\EnocaChallenge.Persistence\obj\Debug\net6.0\EnocaChallenge.Persistence.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\EnocaChallenge\Infrastructure\EnocaChallenge.Persistence\obj\Debug\net6.0\EnocaChallenge.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\EnocaChallenge\Infrastructure\EnocaChallenge.Persistence\obj\Debug\net6.0\EnocaChallenge.Persistence.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\EnocaChallenge\Infrastructure\EnocaChallenge.Persistence\obj\Debug\net6.0\EnocaChallenge.Persistence.AssemblyInfo.cs
+C:\Users\User\Desktop\EnocaChallenge\Infrastructure\EnocaChallenge.Persistence\obj\Debug\net6.0\EnocaChallenge.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\EnocaChallenge\Infrastructure\EnocaChallenge.Persistence\obj\Debug\net6.0\EnocaChallenge.Persistence.csproj.CopyComplete
+C:\Users\User\Desktop\EnocaChallenge\Infrastructure\EnocaChallenge.Persistence\obj\Debug\net6.0\EnocaChallenge.Persistence.dll
+C:\Users\User\Desktop\EnocaChallenge\Infrastructure\EnocaChallenge.Persistence\obj\Debug\net6.0\refint\EnocaChallenge.Persistence.dll
+C:\Users\User\Desktop\EnocaChallenge\Infrastructure\EnocaChallenge.Persistence\obj\Debug\net6.0\EnocaChallenge.Persistence.pdb
+C:\Users\User\Desktop\EnocaChallenge\Infrastructure\EnocaChallenge.Persistence\obj\Debug\net6.0\ref\EnocaChallenge.Persistence.dll

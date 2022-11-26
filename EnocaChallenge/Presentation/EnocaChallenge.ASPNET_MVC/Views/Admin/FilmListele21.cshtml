@@ -1,0 +1,44 @@
+﻿@model List<FilmListele21ViewModel>
+
+@{
+
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>  Salon Gösterim Tarihleri</title>
+</head>
+<body>
+
+    <table class="table table-bordered table-hover table-striped">
+        <tr>
+            <th>
+                Salon Ad
+            </th>
+
+            <th>
+                Gösterim Tarihi
+            </th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.SalonAd
+                </td>
+
+                <td>
+                    @item.GösterimTarihi
+                </td>
+
+
+            </tr>
+        }
+    </table>
+
+</body>
+</html>
+

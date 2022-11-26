@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\EnocaChallenge\Core\EnocaChallenge.Domain\bin\Debug\net6.0\EnocaChallenge.Domain.deps.json
+C:\Users\User\Desktop\EnocaChallenge\Core\EnocaChallenge.Domain\bin\Debug\net6.0\EnocaChallenge.Domain.runtimeconfig.json
+C:\Users\User\Desktop\EnocaChallenge\Core\EnocaChallenge.Domain\bin\Debug\net6.0\EnocaChallenge.Domain.dll
+C:\Users\User\Desktop\EnocaChallenge\Core\EnocaChallenge.Domain\bin\Debug\net6.0\EnocaChallenge.Domain.pdb
+C:\Users\User\Desktop\EnocaChallenge\Core\EnocaChallenge.Domain\obj\Debug\net6.0\EnocaChallenge.Domain.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\EnocaChallenge\Core\EnocaChallenge.Domain\obj\Debug\net6.0\EnocaChallenge.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\EnocaChallenge\Core\EnocaChallenge.Domain\obj\Debug\net6.0\EnocaChallenge.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\EnocaChallenge\Core\EnocaChallenge.Domain\obj\Debug\net6.0\EnocaChallenge.Domain.AssemblyInfo.cs
+C:\Users\User\Desktop\EnocaChallenge\Core\EnocaChallenge.Domain\obj\Debug\net6.0\EnocaChallenge.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\EnocaChallenge\Core\EnocaChallenge.Domain\obj\Debug\net6.0\EnocaChallenge.Domain.dll
+C:\Users\User\Desktop\EnocaChallenge\Core\EnocaChallenge.Domain\obj\Debug\net6.0\refint\EnocaChallenge.Domain.dll
+C:\Users\User\Desktop\EnocaChallenge\Core\EnocaChallenge.Domain\obj\Debug\net6.0\EnocaChallenge.Domain.pdb
+C:\Users\User\Desktop\EnocaChallenge\Core\EnocaChallenge.Domain\obj\Debug\net6.0\EnocaChallenge.Domain.genruntimeconfig.cache
+C:\Users\User\Desktop\EnocaChallenge\Core\EnocaChallenge.Domain\obj\Debug\net6.0\ref\EnocaChallenge.Domain.dll
